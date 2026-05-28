@@ -32,17 +32,18 @@ For each modulation scheme, the following pipeline is applied:
 ---
 
 ## 📁 Project Structure
-Project_Modulations/
-│
-├── ASK/
-│   ├── ASKModulation.py
-│   └── plotBER_ASK.png
-│
-├── FSK/                        # Coming soon
-├── PSK/                        # Coming soon
-├── QAM/                        # Coming soon
-│
-└── README.md
+
+    Project_Modulations/
+    │
+    ├── ASK/
+    │   ├── ask_simulation.py
+    │   └── ask_ber_vs_snr.png
+    │
+    ├── FSK/                        # Coming soon
+    ├── PSK/                        # Coming soon
+    ├── QAM/                        # Coming soon
+    │
+    └── README.md
 
 ---
 
@@ -88,7 +89,7 @@ An interactive Plotly chart will open in your browser.
 
 ## 📈 Sample Output — ASK
 
-![BER vs SNR — ASK Modulation](ASK/plotBER_ASK.png)
+![BER vs SNR — ASK Modulation](ASK/PlotBER_ASK.png)
 
 > The empirical BER closely follows the theoretical curve `0.5 · erfc(√(SNR/2))`, validating the simulation.
 
