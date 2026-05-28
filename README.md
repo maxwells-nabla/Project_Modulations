@@ -1,10 +1,10 @@
-# 📡 Modulation Simulations — BER vs SNR Analysis
+# Modulation Simulations — BER vs SNR Analysis
 
 A Python-based project simulating various digital modulation schemes and evaluating their performance through **Bit Error Rate (BER)** analysis over an **AWGN channel**.
 
 ---
 
-## 📊 Results Preview
+## Results Preview
 
 | Modulation | Status |
 |------------|--------|
@@ -17,7 +17,7 @@ A Python-based project simulating various digital modulation schemes and evaluat
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 For each modulation scheme, the following pipeline is applied:
 
@@ -31,7 +31,7 @@ For each modulation scheme, the following pipeline is applied:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
     Project_Modulations/
     │
@@ -47,7 +47,7 @@ For each modulation scheme, the following pipeline is applied:
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 ```bash
 pip install numpy scipy plotly
@@ -61,7 +61,7 @@ pip install numpy scipy plotly
 
 ---
 
-## 🚀 Usage
+## Usage
 
 Clone the repository and run any simulation script:
 
@@ -75,7 +75,7 @@ An interactive Plotly chart will open in your browser.
 
 ---
 
-## 📐 Simulation Parameters
+## Simulation Parameters
 
 | Parameter | Value |
 |-----------|-------|
@@ -87,7 +87,7 @@ An interactive Plotly chart will open in your browser.
 
 ---
 
-## 📈 Sample Output — ASK
+## Sample Output — ASK
 
 ![BER vs SNR — ASK Modulation](ASK/PlotBER_ASK.png)
 
@@ -95,7 +95,7 @@ An interactive Plotly chart will open in your browser.
 
 ---
 
-## 📜 License
+## License
 
 This project is open-source under the [MIT License](LICENSE).
 
