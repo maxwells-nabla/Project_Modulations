@@ -91,7 +91,7 @@ An interactive Plotly chart will open in your browser.
 
 ![BER vs SNR — ASK Modulation](ASK/PlotBER_ASK.png)
 
-> The empirical BER closely follows the theoretical curve, `0.5 · erfc(√(SNR/2))`, until 10 dB (when the linear BER drops to 0), validating the simulation.
+> The empirical BER closely follows the theoretical curve, `0.5 · erfc(√(SNR/2))`, until 10 dB (when the linear empirical BER drops to 0), validating the simulation.
 
 ---
 
