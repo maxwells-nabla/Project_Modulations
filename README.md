@@ -77,7 +77,7 @@ An interactive Plotly chart will open in your browser.
 
 ## Simulation Parameters
 
-| Parameter | Value |
+| Parameter | Value for ASK |
 |-----------|-------|
 | Number of bits | 100,000 |
 | Sampling rate `fs` | 100,000 Hz |
